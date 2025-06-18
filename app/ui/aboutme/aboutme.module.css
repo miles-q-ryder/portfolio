@@ -1,0 +1,53 @@
+.block {
+    align-items: center;
+    margin: 40px;
+}
+
+.header {
+    font-size: var(--text-lg) /* 1.25rem = 20px */;
+    line-height: var(--tw-leading, var(--text-xl--line-height) /* calc(1.75 / 1.25) ≈ 1.4 */);
+    padding: calc(var(--spacing) * 5);
+    font-weight: bold;
+    border-bottom: var(--color-cyan-600) 2px solid;
+    margin-bottom: 24px;
+}
+
+.bar {
+    width: 100%;
+    height: 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.filled {
+    height: 100%;
+    background: linear-gradient(90deg, var(--color-cyan-500), var(--color-cyan-600));
+    transition: width 0.3s ease;
+    border-radius: 5px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    /* padding: calc(var(--spacing) * 5); */
+    gap: calc(var(--spacing) * 5);
+    align-items: center;
+}
+
+.interest {
+    padding: 1rem .5rem;
+    margin: 1rem 0;
+    border-radius: 10px;
+    min-width: fit-content;
+    width: 100%;
+    background-color: var(--color-cyan-100);
+    box-shadow: var(--color-cyan-300) 0px 1px 2px;
+}
+
+.li {
+    width: 100%;
+    min-width: fit-content;
+    margin: 10px 0;
+}
