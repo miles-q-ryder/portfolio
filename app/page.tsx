@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Sections from './ui/sections';
 
 export default function Home() {
