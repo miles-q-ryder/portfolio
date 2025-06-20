@@ -1,10 +1,9 @@
-import Image from "next/image";
 import styles from '@/app/ui/projects/project.module.css';
 
 export default function Hackathon24() {
 	return (
 		<div className={`${styles.box} ${styles.right}`}>
-			<Image
+			<img
 				aria-hidden
 				src={`/projects/python-logo.png`}
 				alt='Python Logo'

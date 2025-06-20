@@ -1,10 +1,9 @@
-import Image from 'next/image';
 import styles from '@/app/ui/projects/project.module.css';
 
 export default function TetrisProject() {
 	return (
 		<div className={`${styles.box} ${styles.left}`}>
-			<Image
+			<img
 				aria-hidden
 				src={`/projects/tetris-logo.png`}
 				alt='Tetris Logo'
