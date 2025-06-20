@@ -5,7 +5,7 @@ export default function MicroGNextPrject() {
 		<div className={`${styles.box} ${styles.left}`}>
 			<img
 				aria-hidden
-				src={`/projects/micro-g-next-logo(1).png`}
+				src={`/portfolio/projects/micro-g-next-logo(1).png`}
 				alt='MicroG NeXt Logo'
 				width={256}
 				height={245}

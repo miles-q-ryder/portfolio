@@ -5,7 +5,7 @@ export default function Hackathon24() {
 		<div className={`${styles.box} ${styles.right}`}>
 			<img
 				aria-hidden
-				src={`/projects/python-logo.png`}
+				src={`/portfolio/projects/python-logo.png`}
 				alt='Python Logo'
 				width={256}
 				height={254}
