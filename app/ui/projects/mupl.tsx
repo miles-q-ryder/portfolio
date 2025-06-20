@@ -6,7 +6,7 @@ export default function MUPLProject() {
 		<div className={`${styles.box} ${styles.right}`}>
 			<Image
 				aria-hidden
-				src={`${process.env.NEXT_PUBLIC_BASE_PATH}/projects/racket-logo.png`}
+				src={`/projects/racket-logo.png`}
 				alt='Racket Logo'
 				width={256}
 				height={267}

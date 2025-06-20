@@ -6,7 +6,7 @@ export default function TetrisProject() {
 		<div className={`${styles.box} ${styles.left}`}>
 			<Image
 				aria-hidden
-				src={`${process.env.NEXT_PUBLIC_BASE_PATH}/projects/tetris-logo.png`}
+				src={`/projects/tetris-logo.png`}
 				alt='Tetris Logo'
 				width={320}
 				height={320}
