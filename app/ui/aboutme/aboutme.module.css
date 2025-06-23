@@ -30,10 +30,11 @@
 
 .card {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     /* padding: calc(var(--spacing) * 5); */
     gap: calc(var(--spacing) * 5);
     align-items: center;
+    max-width: calc(100vw - 80px);
 }
 
 .interest {

@@ -6,11 +6,11 @@ export default function AboutMe() {
 	return (
 		<div id='aboutme' className='pt-10 text-center mb-10 max-w-full'>
 			<h2 className='text-2xl m-5 font-semibold'>About Me</h2>
-			<div className='grid md:grid-cols-3 '>
+			<div className='grid md:grid-cols-2 '>
 				<Languages />
 				<Skills />
-				<Interests />
 			</div>
+			<Interests />
 		</div>
 	);
 }

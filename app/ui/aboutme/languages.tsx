@@ -4,7 +4,7 @@ export default function Languages() {
 	return (
 		<div className={styles.block}>
 			<h3 className={styles.header}>Languages</h3>
-			<ul className={styles.card}>
+			<ul className={`flex-col ${styles.card}`}>
 				<li className={styles.li}>
 					C++
 					<div className={styles.bar}>

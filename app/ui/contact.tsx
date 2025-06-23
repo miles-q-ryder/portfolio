@@ -6,7 +6,7 @@ export default function Contact() {
 				<a
 					href='mailto:milesq.ryder@gmail.com'
 					className='border-b-2 border-cyan-600'>
-					milesq.ryder@gmail.com
+					MilesQ.Ryder@gmail.com
 				</a>
 				<div className='hidden md:flex'>||</div>
 				<a

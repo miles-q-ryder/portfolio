@@ -1,11 +1,13 @@
+import Image from 'next/image';
+import Logo from '@/public/projects/micro-g-next-logo(1).png'
 import styles from '@/app/ui/projects/project.module.css';
 
 export default function MicroGNextPrject() {
 	return (
 		<div className={`${styles.box} ${styles.left}`}>
-			<img
+			<Image
 				aria-hidden
-				src={`/portfolio/projects/micro-g-next-logo(1).png`}
+				src={Logo}
 				alt='MicroG NeXt Logo'
 				width={256}
 				height={245}

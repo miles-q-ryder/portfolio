@@ -4,7 +4,7 @@ export default function Skills() {
 	return (
 		<div className={styles.block}>
 			<h3 className={styles.header}>Skills</h3>
-			<ul className={styles.card}>
+			<ul className={`flex-col ${styles.card}`}>
 				<li className={styles.li}>
 					Algorithms
 					<div className={styles.bar}>

@@ -1,11 +1,13 @@
+import Image from 'next/image';
+import Logo from '@/public/projects/tetris-logo.png'
 import styles from '@/app/ui/projects/project.module.css';
 
 export default function TetrisProject() {
 	return (
 		<div className={`${styles.box} ${styles.left}`}>
-			<img
+			<Image
 				aria-hidden
-				src={`/portfolio/projects/tetris-logo.png`}
+				src={Logo}
 				alt='Tetris Logo'
 				width={320}
 				height={320}

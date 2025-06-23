@@ -1,11 +1,13 @@
+import Image from 'next/image';
+import Logo from '@/public/projects/racket-logo.png'
 import styles from '@/app/ui/projects/project.module.css';
 
 export default function MUPLProject() {
 	return (
 		<div className={`${styles.box} ${styles.right}`}>
-			<img
+			<Image
 				aria-hidden
-				src={`/portfolio/projects/racket-logo.png`}
+				src={Logo}
 				alt='Racket Logo'
 				width={256}
 				height={267}
