@@ -2,14 +2,11 @@
   background-color: var(--color-cyan-400);
   padding: calc(var(--spacing) * 5) /* 1.25rem = 20px */;
   display: flex;
-  flex-direction: row;
   border-radius: var(--radius-xl);
   flex-direction: column;
-  max-width: calc(100vw - 80px);
+  width: 100%;
   align-self: center;
-  @media (width >= 48rem /* 768px */) {
-    max-width: 1024px;
-  }
+  max-width: 1024px;
 }
 
 .box.left {
@@ -25,12 +22,11 @@
 }
 
 .logo {
-  min-width: calc(var(--spacing) * 32) /* 8rem = 128px */;
-  max-height: fit-content;
-  height: auto;
-  align-self: center;
-  @media (width >= 64rem /* 1024px */) {
-      min-width: calc(var(--spacing) * 64) /* 16rem = 256px */;
+  width: 25%;
+  height: fit-content;
+  @media (width < 48rem /* 768px */) {
+    align-self: center;
+    width: min(256px, 100%);
   }
 }
 

@@ -52,3 +52,11 @@
     min-width: fit-content;
     margin: 10px 0;
 }
+
+/* Extras */
+.contact {
+    height: calc(100vh - 96px);
+    @media (width < 64rem) {
+        height: calc(100vh - 96px - 168px);
+    }
+}
